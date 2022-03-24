@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./css/styles_tick.css">
+    <script type="text/javascript" src="./js/tick.js"></script>
+
+    <title>Airlines tickets</title>
+</head>
+
+
+
+<body>
+    <div class="container">
+        <header class="">
+            <div class="aero">
+                <img src="./img/fly.png" alt="">
+            </div>
+        </header>
+
+        <nav>
+            <div class="wrap">
+                <h3>ВАЛЮТА</h3>
+                <div class="valuta">
+                    <div class="val-sel item-val rub">RUB</div>
+                    <div class="val-sel item-val usd">USD</div>
+                    <div class="val-sel item-val eur">EUR</div>
+
+                </div>
+                <h3>КОЛИЧЕСТВО ПЕРЕСАДОК</h3>
+                <div class="q-chang">
+                    <input type="checkbox" class="item all" value="4" checked>Все<br>
+                    <input type="checkbox" class="item" value="0">Без пересадок<br>
+                    <input type="checkbox" class="item" value="1">1 пересадка<br>
+                    <input type="checkbox" class="item" value="2">2 пересадки<br>
+                    <input type="checkbox" class="item" value="3">3 пересадки<br>
+
+                </div>
+            </div>
+        </nav>
+
+        <div class="wrap1">
+
+            <div class="items">
+                <!-- <section>
+                    <div class="wrap2">
+                        <div class="itemspart">
+                            <div class="carrier">
+                                <img src="./img/tk.png" alt="">
+                            </div>
+                            <button class="buy">Купить</button>
+                        </div>
+                        <div class="depart itemspart">
+                            111
+                        </div>
+                        <div class="stop-ivent itemspart">
+                            222
+                        </div>
+                        <div class="arrive itemspart">
+                            333
+                        </div>
+
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <div class="carrier">
+                            <img src="./img/tk.png" alt="">
+                        </div>
+                    </div>
+                </section> -->
+            </div>
+        </div>
+
+        <!-- Trigger/Open The Modal -->
+        <!-- <button id="myBtn">Open Modal</button> -->
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Please, input your personal data</p>
+
+                <form>
+                    <div class="cont">
+                        <table>
+                            <tr>
+                                <td class="one">e-mail</td>
+                                <td><input type="text" class="mail persdata" required="required"></td>
+                            </tr>
+                            <tr>
+                                <td class="one">Phone number</td>
+                                <td><input type="text" class="phone persdata" required></td>
+                            </tr>
+                            <tr>
+                                <td class="one">First name</td>
+                                <td><input type="text" class="firstname persdata" required></td>
+                            </tr>
+                            <tr>
+                                <td class="one">Second name</td>
+                                <td><input type="text" class="secondname persdata" required></td>
+                            </tr>
+                            <tr>
+                                <td class="one">Passport number</td>
+                                <td><input type="text" class="passportnumber persdata" required></td>
+                            </tr>
+                            <tr>
+                                <td class="one"></td>
+                                <td>
+                                    <div>Total your trip price is:<span class="out"></span></div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <p><input type="submit" value="Confirm"></p>
+                </form>
+                <div class="cont">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    </div>
+    <script src="./js/skrip.js"></script>
+</body>
+
+</html>
